@@ -1,5 +1,5 @@
 {
-  "name": "deep",
+  "name": "server",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,18 +9,19 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.12.7",
-    "@strapi/plugin-users-permissions": "4.12.7",
     "@strapi/plugin-i18n": "4.12.7",
-    "better-sqlite3": "8.5.0"
+    "@strapi/plugin-users-permissions": "4.12.7",
+    "@strapi/strapi": "4.12.7",
+    "better-sqlite3": "8.5.0",
+    "mysql": "^2.18.1",
+    "stripe": "^11.18.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "e9a4753e-061a-47b4-b87c-554fdf608c02"
+    "uuid": "3602b62b-28cf-4d04-8f35-8a598ac86106"
   },
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
